@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.nav-color{
+    @apply bg-red-500
+}
+
+
+.nav-color--transparent{
+    @apply bg-transparent
+}
