@@ -9,9 +9,11 @@ export default {
             },
             colors: {
                 primary: {
-                    400: "#013333",
-                    600: "#012929",
+                    400: "#859aa2",
+                    600:"#7c98a5",
+                    800:"#011224",
                 },
+                secondary: {},
                 accent: {
                     400: "#d9b000",
                     600: "#b59100",
@@ -27,10 +29,10 @@ export default {
                 bgThird: "#eeebe6",
 
                 fontLight: "#ffffff",
-                fontDark: "#555555",
+                fontDark: "#2f3e47",
             },
             fontFamily: {
-                heading: ["Nunito Sans", "sans-serif"],
+                heading: ["Russo One", "sans-serif"],
                 text: ["Nunito Sans", "sans-serif"],
             },
         },

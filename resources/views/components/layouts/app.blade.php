@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="scroll-smooth ">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="scroll-smooth scroll-p-12">
 
 <head>
     @include('partials.meta')
@@ -22,20 +22,15 @@
 <x-header/>
 <x-mobile-menu/>
 
-    {{-- <x-preloader />
-    <x-header.header />
-    <x-header.header-secondary />
-    <x-header.mobile-menu /> --}}
+  
 
 
 
     {{ $slot }}
 
-    {{-- <x-map />
-    <x-footer />
-    <x-mobile-buttons />
+    <x-footer/>
 
-   <x-scroll-to-top /> --}}
+    
 
   {{-- @include('partials.scripts') --}}
 
