@@ -15,14 +15,14 @@
 
         <nav>
             <ul class="flex flex-col justify-start items-start gap-5 pl-6 text-white">
-                <li class="">
+                <li class=" nav-item">
                     <a href="#"><img src="{{ asset('assets/logo.png') }}" alt="logo" class="w-40 "></a>
                 </li>
-                <li class="text-xl"><a href="#">Lodowisko</a></li>
-                <li class="text-xl"><a href="#">Wypożyczalnia</a></li>
+                <li class="text-xl nav-item"><a href="{{route('home')}}/#lodowisko">Lodowisko</a></li>
+                <li class="text-xl nav-item"><a href="{{route('home')}}/#wypozyczalnia">Wypożyczalnia</a></li>
 
-                <li class="text-xl"><a href="#">Gastronomia</a></li>
-                <li class="text-xl"><a href="#">Kontakt</a></li>
+                <li class="text-xl nav-item"><a href="{{route('home')}}/#gastronomia">Gastronomia</a></li>
+                <li class="text-xl nav-item"><a href="{{route('home')}}/#kontakt">Kontakt</a></li>
 
                
             </ul>

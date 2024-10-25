@@ -60,19 +60,19 @@
         </div>
 
         {{-- IMAGES --}}
-        <div class="flex flex-col md:flex-row gap-12 max-w-screen-xl mx-auto">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-screen-xl mx-auto">
 
             <div>
-                <img src="{{asset('assets/o-nas-1.jpg')}}" alt=""
-                    class="aspect-square rounded-lg object-cover shadow-xl">
+                <img src="{{asset('assets/o-nas-1.webp')}}" alt="Dziewczyna na lodowisku Biała Owca w Białce Tatrzańskiej"
+                    class="aspect-square rounded-lg object-cover shadow-xl w-full h-full">
             </div>
             <div>
-                <img src="{{asset('assets/o-nas-3.jpg')}}" alt=""
-                    class="aspect-square rounded-lg object-cover shadow-xl">
+                <img src="{{asset('assets/o-nas-3.webp')}}" alt="Dziewczyna na lodowisku Biała Owca w Białce Tatrzańskiej"
+                    class="aspect-square rounded-lg object-cover shadow-xl w-full h-full">
             </div>
             <div class="hidden lg:block">
-                <img src="{{asset('assets/o-nas-2.jpg')}}" alt=""
-                    class="aspect-square rounded-lg object-cover shadow-xl">
+                <img src="{{asset('assets/o-nas-2.webp')}}" alt="Łyzwiarz na lodowisku Biała Owca w Białce Tatrzańskiej"
+                    class="aspect-square rounded-lg object-cover shadow-xl w-full h-full">
             </div>
 
         </div>

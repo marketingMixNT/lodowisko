@@ -4,18 +4,18 @@
 
         <div class="flex flex-col md:flex-row gap-6 md:gap-0 justify-between items-center">
 
-            <a href="{{route('home')}}"><img src="{{asset('assets/logo.png')}}" alt="" class="w-52"></a>
+            <a href="{{route('home')}}" aria-label="Strona główna"><img src="{{asset('assets/logo.png')}}" alt="" class="w-52"></a>
 
             <nav>
                 <ul class="flex gap-12 ">
-                    <li><a href="{{route('privacyPolicy')}}" class="text-lg">Polityka Prywatności</a></li>
+                    <li><a href="{{route('privacyPolicy')}}" class="text-lg link-hover">Polityka Prywatności</a></li>
 
                 </ul>
             </nav>
 
             <ul class="flex gap-12">
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Instagram</a></li>
+                <li><a href="#" class=" link-hover">Facebook</a></li>
+                <li><a href="#" class=" link-hover">Instagram</a></li>
             </ul>
         </div>
 
@@ -25,7 +25,7 @@
 
                 © <span id="footerYear"></span> Biała Owca
             </span>
-            <a href="https://marketingmix.pl" target="_blank" rel="norefferer nofollow"><img
+            <a href="https://marketingmix.pl" target="_blank" rel="norefferer nofollow" aria-label="Marketing Mix"><img
                     src="{{asset('assets/marketingmix.svg')}}" alt="" class="w-40"></a>
         </div>
 

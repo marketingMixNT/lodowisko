@@ -1,5 +1,5 @@
-<div class="py-32 flex flex-col justify-center items-center"
-style="background-image: url({{asset('assets/cta.jpg')}})">
+<div class="py-32 flex flex-col justify-center items-center bg-cover bg-center bg-no-repeat"
+style="background-image: url({{asset('assets/cta.webp')}})">
 
 
 <div class=" max-w-screen-md mx-auto flex flex-col gap-10 justify-center items-center text-cetner">

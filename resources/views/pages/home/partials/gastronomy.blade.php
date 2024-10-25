@@ -50,18 +50,18 @@
         </div>
         </div>
         {{-- IMAGES --}}
-        <div class="flex flex-col md:flex-row gap-12">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-screen-xl mx-auto">
 
             <div>
-                <img src="{{asset('assets/gastronomia-2.jpg')}}" alt=""
+                <img src="{{asset('assets/gastronomia-2.webp')}}" alt="gofry w gastronomii na lodowisku Biała Owca w Białce Tatrzańskiej"
                     class="aspect-square rounded-lg object-cover shadow-xl">
             </div>
             <div>
-                <img src="{{asset('assets/gastronomia-4.jpg')}}" alt=""
+                <img src="{{asset('assets/gastronomia-4.webp')}}" alt="kawa w gastronomii na lodowisku Biała Owca w Białce Tatrzańskiej"
                     class="aspect-square rounded-lg object-cover shadow-xl">
             </div>
             <div class="hidden lg:block">
-                <img src="{{asset('assets/gastronomia-3.jpg')}}" alt=""
+                <img src="{{asset('assets/gastronomia-3.webp')}}" alt="kebab w gastronomii na lodowisku Biała Owca w Białce Tatrzańskiej"
                     class="aspect-square rounded-lg object-cover shadow-xl">
             </div>
            
