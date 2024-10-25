@@ -12,7 +12,7 @@
 
         <div class="flex lg:hidden  justify-center items-center gap-3 ">
 
-            <a href="/" class="font-light text-sm flex justify-center items-center gap-2  ">
+            <a href="https://maps.app.goo.gl/e4z9T3TtmTVTB2xz7" target="_blank" class="font-light text-sm flex justify-center items-center gap-2  ">
                 <x-lucide-map-pin class="w-5" />
             </a>
             
@@ -26,20 +26,20 @@
 
 
     <ul class="flex justify-center items-center gap-6 text-white text-lg  ">
-        <li class="hidden lg:block"><a href="#lodowisko">Lodowisko</a></li>
-        <li class="hidden lg:block"><a href="#wypozyczalnia">Wypożyczalnia</a></li>
+        <li class="hidden lg:block"><a href="{{route('home')}}/#lodowisko">Lodowisko</a></li>
+        <li class="hidden lg:block"><a href="{{route('home')}}/#wypozyczalnia">Wypożyczalnia</a></li>
         <li class="flex justify-center">
-            <a href="#"><img src="{{ asset('assets/logo.png') }}" alt="logo" class="w-24"></a>
+            <a href="{{route('home')}}"><img src="{{ asset('assets/logo.png') }}" alt="logo" class="w-24"></a>
         </li>
-        <li class="hidden lg:block"><a href="#gastronomia">Gastronomia</a></li>
-        <li class="hidden lg:block"><a href="#kontakt">Kontakt</a></li>
+        <li class="hidden lg:block"><a href="{{route('home')}}/#gastronomia">Gastronomia</a></li>
+        <li class="hidden lg:block"><a href="{{route('home')}}/#kontakt">Kontakt</a></li>
     </ul>
 
 
     <div class="absolute right-6 top-1/2 -translate-y-1/2 ">
 
 
-        <a href="/" class="font-extralight text-sm hidden xl:flex justify-center items-center gap-2  ">
+        <a href="https://maps.app.goo.gl/e4z9T3TtmTVTB2xz7" target="_blank" class="font-extralight text-sm hidden xl:flex justify-center items-center gap-2  ">
             <x-lucide-map-pin class="w-4" />
 
 

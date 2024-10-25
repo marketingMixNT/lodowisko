@@ -4,11 +4,11 @@
 
         <div class="flex flex-col md:flex-row gap-6 md:gap-0 justify-between items-center">
 
-            <a href="/"><img src="{{asset('assets/logo.png')}}" alt="" class="w-52"></a>
+            <a href="{{route('home')}}"><img src="{{asset('assets/logo.png')}}" alt="" class="w-52"></a>
 
             <nav>
                 <ul class="flex gap-12 ">
-                    <li><a href="#" class="text-lg">Polityka Prywatności</a></li>
+                    <li><a href="{{route('privacyPolicy')}}" class="text-lg">Polityka Prywatności</a></li>
 
                 </ul>
             </nav>

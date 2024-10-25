@@ -11,4 +11,9 @@ class MainController extends Controller
     {
         return view('pages.home.index');
     }
+
+    public function privacyPolicy(): View
+    {
+        return view('pages.privacyPolicy.index');
+    }
 }
