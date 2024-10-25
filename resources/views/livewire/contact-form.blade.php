@@ -62,6 +62,8 @@
             class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-400 focus:border-primary-400 min-h-[200px] max-h-[200px]"></textarea>
     </div>
 
+    <p class="text-xs mb-5">Ta strona jest chroniona przez reCAPTCHA, a jej działanie regulują <a href="https://policies.google.com/privacy" class="italic" target="_blank" rel="norefferer nofollow">Polityka prywatności</a> i <a href="https://policies.google.com/terms" class="italic" target="_blank" rel="norefferer nofollow">Warunki korzystania z usługi</a> Google.</p>
+
     {{-- submit --}}
     <button data-sitekey="{{ env('CAPTCHA_SITE_KEY') }}" data-callback='handle' data-action='submit' type="submit" wire.loading.attr="disabled" type='submit' aria-label="Wyślij"
         class="text-white bg-primary-400 hover:bg-primary-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center "><svg

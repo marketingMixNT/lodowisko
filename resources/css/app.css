@@ -14,3 +14,6 @@
 .nav-color--transparent{
     @apply bg-transparent
 }
+
+.grecaptcha-badge { visibility: hidden; }
+
