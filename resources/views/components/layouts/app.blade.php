@@ -18,7 +18,7 @@
 
 <body class="font-text bg-bgPrimary text-fontDark overflow-x-hidden">
     @include('partials.gtm')
-<x-preloader/>
+{{-- <x-preloader/> --}}
 <x-header/>
 <x-mobile-menu/>
 

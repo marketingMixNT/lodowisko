@@ -5,7 +5,7 @@
 
         {{-- close --}}
         <div class="flex justify-end">
-            <button id="closeMenu" class="border border-white p-2 rounded-full cursor-pointer group">
+            <button id="closeMenu" class="border border-white p-2 rounded-full cursor-pointer group" aria-label="Zamknij menu">
 
                 <x-lucide-x class="size-10 group-hover:rotate-90 duration-300 text-white" />
 

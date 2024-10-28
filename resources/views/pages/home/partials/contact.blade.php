@@ -1,20 +1,20 @@
 <x-section id="kontakt">
 
-    <div class="max-w-screen-xl mx-auto py-12  flex flex-col lg:flex-row justify-between items-center gap-24">
+    <div class="max-w-screen-xl mx-auto py-6 sm:py-12  flex flex-col lg:flex-row justify-between items-center gap-12 sm:gap-24">
 
 
         <div class="w-full lg:w-1/2 flex flex-col items-start justify-start gap-12">
-            <h2 class="text-left text-5xl" style="line-height: 1.2">Potrzebujesz informacji? <br /> Skontaktuj się z
+            <h2 class="text-center md:text-left text-5xl" style="line-height: 1.2">Potrzebujesz informacji? <br /> Skontaktuj się z
                 nami!</h2>
 
-            <div class="flex flex-col items-start justify-start gap-3">
+            <div class="flex flex-col items-center sm:items-start justify-center sm:justify-start gap-3 text-center sm:text-left text-xl ">
 
                 <p>Masz pytania dotyczące naszego lodowiska, wypożyczalni lub gastronomii? Jesteśmy tutaj, aby pomóc!
                 </p>
                 <p>Zachęcamy do kontaktu – chętnie udzielimy informacji, rozwiejemy wątpliwości i pomożemy w
                     organizacji
                     Twojej wizyty.</p>
-                <p>Czekamy na Twoje wiadomości!</p>
+                <p class="text-center sm:text-left">Czekamy na Twoje wiadomości!</p>
 
 
             </div>
@@ -30,7 +30,7 @@
 
     {{-- container --}}
     <x-wrapper class="max-w-screen-xl pb-12 md:pb-24">
-        <div class="flex flex-col lg:flex-row justify-between items-center gap-24">
+        <div class="flex flex-col lg:flex-row justify-between items-center gap-12 sm:gap-24">
 
             <div class="w-full lg:w-1/2 flex justify-center items-center gap-3 order-1 lg:order-none">
                 <iframe

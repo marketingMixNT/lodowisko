@@ -1,5 +1,5 @@
 <section
-    class=" w-full bg-center bg-fixed bg-cover bg-blend-multiply bg-primary-600 flex justify-center items-end text-white px-6 sm:px-12 xl:px-0"
+    class=" w-full bg-center sm:bg-fixed bg-cover bg-blend-multiply bg-primary-600 flex justify-center items-end text-white px-2 sm:px-12 xl:px-0"
     style="background-image: url({{asset('assets/hero.webp')}})  ">
 
     <div class="flex flex-col justify-center items-center mx-auto text-center  max-w-screen-xl gap-16 2xl:gap-32 pb-20">
@@ -12,7 +12,7 @@
                 klimatem górskiego lodowiska.</p>
         </div>
 
-        <div class="grid xl:grid-cols-3 gap-12 2xl:gap-24 px-16 w-full justify-center  max-w-screen-xl">
+        <div class="grid xl:grid-cols-3 gap-12 2xl:gap-24 px-6 md:px-16 w-full justify-center  max-w-screen-xl">
 
             <x-hero-card href="#lodowisko" img="{{asset('assets/lodowisko.webp')}}" alt="Dziewczyna na lodowisku Biała Owca w Białce Tatrzańskiej" title="Lodowisko">Ślizgaj się
                 na doskonale przygotowanej tafli lodu z malowniczym widokiem na Tatry! Lodowisko
