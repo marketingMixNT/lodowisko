@@ -49,9 +49,9 @@
 
                 <h2 class="text-center text-3xl font-heading text-fontLight">1 razowe wejście bez limitu</h2>
                 <ul class="flex flex-col gap-8 text-fontLight">
-                    <x-price-item title="Bilet ulgowy" price="20zł" />
+                    <x-price-item title="Bilet ulgowy - do lat 16" price="20zł" />
                     <x-price-item title="Bilet normalny" price="25zł" />
-                    <x-price-item title="Grupy powyżej 20 osób" price="do negocjacji" />
+                    <x-price-item title="Grupy powyżej 20 osób" price="indywidualna wycena" />
 
                 </ul>
 
@@ -67,11 +67,11 @@
                     class="aspect-square rounded-lg object-cover shadow-xl w-full h-full">
             </div>
             <div>
-                <img src="{{asset('assets/o-nas-3.webp')}}" alt="Dziewczyna na lodowisku Biała Owca w Białce Tatrzańskiej"
+                <img src="{{asset('assets/o-nas-2.webp')}}" alt="Dziewczyna na lodowisku Biała Owca w Białce Tatrzańskiej"
                     class="aspect-square rounded-lg object-cover shadow-xl w-full h-full">
             </div>
             <div class="hidden lg:block">
-                <img src="{{asset('assets/o-nas-2.webp')}}" alt="Łyzwiarz na lodowisku Biała Owca w Białce Tatrzańskiej"
+                <img src="{{asset('assets/o-nas-3.webp')}}" alt="Łyzwiarz na lodowisku Biała Owca w Białce Tatrzańskiej"
                     class="aspect-square rounded-lg object-cover shadow-xl w-full h-full">
             </div>
 

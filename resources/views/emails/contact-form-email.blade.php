@@ -56,7 +56,7 @@
                     <td style="width: 552px; max-width: 100%">
                         <div class="sm-my-8" style="margin-top: 48px; margin-bottom: 48px; text-align: center">
                             <a href="https://lodowiskobialka.pl">
-                                <img src="{{ asset('assets/logo.png') }}" width="200"
+                                <img src="{{ asset('assets/logo-dark.png') }}" width="200"
                                     alt="logo lodowisko Bialka" style="max-width: 100%; vertical-align: middle">
                             </a>
                         </div>

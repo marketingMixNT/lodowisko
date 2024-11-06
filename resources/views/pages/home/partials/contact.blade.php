@@ -33,10 +33,7 @@
         <div class="flex flex-col lg:flex-row justify-between items-center gap-12 sm:gap-24">
 
             <div class="w-full lg:w-1/2 flex justify-center items-center gap-3 order-1 lg:order-none">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2597.216828269981!2d20.103323977479494!3d49.38589027140848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715f0c719092ecd%3A0x78d8c0aff40115f5!2s%C5%9Arodkowa%20161%2C%2034-405%20Bia%C5%82ka%20Tatrza%C5%84ska!5e0!3m2!1spl!2spl!4v1729766944564!5m2!1spl!2spl "
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade" title="lodowisko Biała Owca" class="w-full"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5194.433685233836!2d20.105899!3d49.38589!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715f1ac4a749f57%3A0x989eab9c05cca23d!2sLodowisko%20Bia%C5%82a%20Owca!5e0!3m2!1spl!2spl!4v1730874951655!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="lodowisko Biała Owca" class="w-full"></iframe>
 
             </div>
 

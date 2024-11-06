@@ -5,7 +5,6 @@ const navbarOnScroll = () => {
     let currentScrollPosition = window.scrollY;
 
     if (currentScrollPosition >= 50) {
-        console.log("ok");
         navbar.classList.add("nav-color");
         navbar.classList.remove("nav-color--transparent");
     } else {

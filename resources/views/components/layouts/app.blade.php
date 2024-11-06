@@ -29,7 +29,7 @@
     {{ $slot }}
 
     <x-footer/>
-
+    <x-mobile-buttons  />
     
 
   {{-- @include('partials.scripts') --}}

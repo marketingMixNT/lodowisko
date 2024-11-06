@@ -3,8 +3,8 @@
     <div class="absolute left-6 top-1/2 -translate-y-1/2 ">
 
 
-        <a href="tel:+48608371137" class="font-extralight text-sm xl:flex justify-center items-center gap-2 hidden ">
-            <x-lucide-phone class="w-4" />
+        <a href="tel:+48608371137" class="font-semibold text-xl xl:flex justify-center items-center gap-2 hidden ">
+            <x-lucide-phone class="w-8" />
 
 
             608 371 137
@@ -24,7 +24,7 @@
     </div>
 
 
-    <ul class="flex justify-center items-center gap-6 text-white text-lg  ">
+    <ul class="flex justify-center items-center gap-6 text-white text-xl  ">
         <li class="hidden lg:block"><a href="{{route('home')}}/#lodowisko" class="link-hover ">Lodowisko</a></li>
         <li class="hidden lg:block"><a href="{{route('home')}}/#wypozyczalnia" class="link-hover ">Wypożyczalnia</a></li>
         <li class="flex justify-center">
@@ -38,8 +38,8 @@
     <div class="absolute right-6 top-1/2 -translate-y-1/2 ">
 
 
-        <a href="https://maps.app.goo.gl/e4z9T3TtmTVTB2xz7" target="_blank" class="font-extralight text-sm hidden xl:flex justify-center items-center gap-2  ">
-            <x-lucide-map-pin class="w-4" />
+        <a href="https://maps.app.goo.gl/e4z9T3TtmTVTB2xz7" target="_blank" class=" font-semibold text-xl hidden xl:flex justify-center items-center gap-2  ">
+            <x-lucide-map-pin class="w-8" />
 
 
             Środkowa 161, Białka Tatrzańska
