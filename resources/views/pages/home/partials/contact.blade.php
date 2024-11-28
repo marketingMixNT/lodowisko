@@ -49,12 +49,12 @@
 
                     <div class="flex justify-center items-center flex-col ">
                         <h3 class="text-center text-2xl font-heading mb-4">Telefon</h3>
-                        <a href="tel:+48608371137" class="text-xl">+48 608 371 137</a>
+                        <a href="tel:+48734775817" class="text-xl">+48 734 775 817</a>
                     </div>
 
                     <div class="flex justify-center items-center flex-col ">
                         <h3 class="text-center text-2xl font-heading mb-4">Adres</h3>
-                        <a href="https://maps.app.goo.gl/RDUQSZV2nCxN6gA69" class="text-xl text-center">Środkowa 161
+                        <a href="https://maps.app.goo.gl/GNqpgpcfAvYnMM6W6" class="text-xl text-center">Środkowa 161
                             <br />Białka Tatrzańska</a>
                     </div>
 

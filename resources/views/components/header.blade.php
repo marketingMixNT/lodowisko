@@ -3,20 +3,20 @@
     <div class="absolute left-6 top-1/2 -translate-y-1/2 ">
 
 
-        <a href="tel:+48608371137" class="font-semibold text-xl xl:flex justify-center items-center gap-2 hidden ">
+        <a href="tel:+48734775817" class="font-semibold text-xl xl:flex justify-center items-center gap-2 hidden ">
             <x-lucide-phone class="w-8" />
 
 
-            608 371 137
+            +48 734 775 817
         </a>
 
         <div class="flex xl:hidden  justify-center items-center gap-3 ">
 
-            <a href="https://maps.app.goo.gl/e4z9T3TtmTVTB2xz7" target="_blank" class="font-light text-sm flex justify-center items-center gap-2  " aria-label="Otwórz mapę">
+            <a href="https://maps.app.goo.gl/GNqpgpcfAvYnMM6W6" target="_blank" class="font-light text-sm flex justify-center items-center gap-2  " aria-label="Otwórz mapę">
                 <x-lucide-map-pin class="w-5" />
             </a>
             
-            <a href="tel:+48608371137" class="font-light text-sm flex justify-center items-center gap-2 " aria-label="Zadzwoń">
+            <a href="tel:+48734775817" class="font-light text-sm flex justify-center items-center gap-2 " aria-label="Zadzwoń">
                 <x-lucide-phone class="w-5" />
                 
             </a>
@@ -38,7 +38,7 @@
     <div class="absolute right-6 top-1/2 -translate-y-1/2 ">
 
 
-        <a href="https://maps.app.goo.gl/e4z9T3TtmTVTB2xz7" target="_blank" class=" font-semibold text-xl hidden xl:flex justify-center items-center gap-2  ">
+        <a href="https://maps.app.goo.gl/GNqpgpcfAvYnMM6W6" target="_blank" class=" font-semibold text-xl hidden xl:flex justify-center items-center gap-2  ">
             <x-lucide-map-pin class="w-8" />
 
 

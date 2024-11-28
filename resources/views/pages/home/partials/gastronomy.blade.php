@@ -60,7 +60,7 @@
                 <img src="{{asset('assets/gastronomia-2.webp')}}" alt="gorąca czekolada w gastronomii na lodowisku Biała Owca w Białce Tatrzańskiej"
                     class="aspect-square rounded-lg object-cover shadow-xl">
             </div>
-            <div class="hidden lg:block">
+            <div class="md:hidden lg:block">
                 <img src="{{asset('assets/gastronomia-3.webp')}}" alt="gofry w gastronomii na lodowisku Biała Owca w Białce Tatrzańskiej"
                     class="aspect-square rounded-lg object-cover shadow-xl">
             </div>

@@ -24,3 +24,6 @@
 <meta property="og:url" content="https://lodowiskobialka.pl">
 <meta property="og:type" content="website">
 <meta property="og:image" content="{{asset('assets/o-nas-1.webp')}}">
+
+
+<script async src="https://app.cookieasy.pl/plugin/sko4skle4uupruu.js"></script>

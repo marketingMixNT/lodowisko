@@ -1,4 +1,4 @@
-<footer class="bg-primary-600 px-6 sm:px-12 2xl:px-0">
+<footer class="bg-primary-600 px-6 sm:px-12 2xl:px-0 pb-16 lg:pb-0">
     <div class="max-w-screen-xl mx-auto py-8 md:py-16 space-y-12 text-fontLight">
 
 
@@ -13,10 +13,10 @@
                 </ul>
             </nav>
 
-            <ul class="flex gap-12">
+            {{-- <ul class="flex gap-12">
                 <li><a href="#" class=" link-hover">Facebook</a></li>
                 <li><a href="#" class=" link-hover">Instagram</a></li>
-            </ul>
+            </ul> --}}
         </div>
 
 
