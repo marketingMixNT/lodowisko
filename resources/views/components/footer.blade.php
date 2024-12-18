@@ -4,7 +4,8 @@
 
         <div class="flex flex-col md:flex-row gap-6 md:gap-0 justify-between items-center">
 
-            <a href="{{route('home')}}" aria-label="Strona główna"><img src="{{asset('assets/logo.png')}}" alt="" class="w-52"></a>
+            <a href="{{route('home')}}" aria-label="Strona główna"><img src="{{asset('assets/logo.png')}}" alt="logo Lodowisko Biała
+Owca w Białce Tatrzańskiej" class="w-52"></a>
 
             <nav>
                 <ul class="flex gap-12 ">
@@ -26,7 +27,7 @@
                 © <span id="footerYear"></span> Biała Owca
             </span>
             <a href="https://marketingmix.pl" target="_blank" rel="norefferer nofollow" aria-label="Marketing Mix"><img
-                    src="{{asset('assets/marketingmix.svg')}}" alt="" class="w-40"></a>
+                    src="{{asset('assets/marketingmix.svg')}}" alt="logo wykonawcy strony - MarketingMix.pl" class="w-40"></a>
         </div>
 
     </div>

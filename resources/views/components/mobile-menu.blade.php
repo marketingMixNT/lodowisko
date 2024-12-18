@@ -5,7 +5,8 @@
 
         {{-- close --}}
         <div class="flex justify-end">
-            <button id="closeMenu" class="border border-white p-2 rounded-full cursor-pointer group" aria-label="Zamknij menu">
+            <button id="closeMenu" class="border border-white p-2 rounded-full cursor-pointer group"
+                aria-label="Zamknij menu">
 
                 <x-lucide-x class="size-10 group-hover:rotate-90 duration-300 text-white" />
 
@@ -16,7 +17,8 @@
         <nav>
             <ul class="flex flex-col justify-start items-start gap-5 pl-6 text-white">
                 <li class=" nav-item">
-                    <a href="#"><img src="{{ asset('assets/logo.png') }}" alt="logo" class="w-40 "></a>
+                    <a href="{{route('home')}}"><img src="{{ asset('assets/logo.webp') }}" alt="logo Lodowisko Biała
+Owca w Białce Tatrzańskiej" class="w-40 "></a>
                 </li>
                 <li class="text-xl nav-item"><a href="{{route('home')}}/#lodowisko">Lodowisko</a></li>
                 <li class="text-xl nav-item"><a href="{{route('home')}}/#wypozyczalnia">Wypożyczalnia</a></li>
@@ -24,7 +26,7 @@
                 <li class="text-xl nav-item"><a href="{{route('home')}}/#gastronomia">Gastronomia</a></li>
                 <li class="text-xl nav-item"><a href="{{route('home')}}/#kontakt">Kontakt</a></li>
 
-               
+
             </ul>
         </nav>
     </div>

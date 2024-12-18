@@ -50,19 +50,19 @@
         </div>
         </div>
         {{-- IMAGES --}}
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-screen-xl mx-auto">
+        <div class="grid  md:grid-cols-3 gap-12 max-w-screen-xl mx-auto">
 
             <div>
-                <img src="{{asset('assets/gastronomia-4.webp')}}" alt="kebab w gastronomii na lodowisku Biała Owca w Białce Tatrzańskiej"
-                    class="aspect-square rounded-lg object-cover shadow-xl">
+                <img src="{{asset('assets/mobile/gastronomia-4.webp')}}" alt="kebab w gastronomii na lodowisku Biała Owca w Białce Tatrzańskiej"
+                    class="aspect-square rounded-lg object-cover shadow-xl w-full" loading="lazy">
             </div>
             <div>
-                <img src="{{asset('assets/gastronomia-2.webp')}}" alt="gorąca czekolada w gastronomii na lodowisku Biała Owca w Białce Tatrzańskiej"
-                    class="aspect-square rounded-lg object-cover shadow-xl">
+                <img src="{{asset('assets/mobile/gastronomia-2.webp')}}" alt="gorąca czekolada w gastronomii na lodowisku Biała Owca w Białce Tatrzańskiej"
+                    class="aspect-square rounded-lg object-cover shadow-xl w-full" loading="lazy">
             </div>
-            <div class="md:hidden lg:block">
-                <img src="{{asset('assets/gastronomia-3.webp')}}" alt="gofry w gastronomii na lodowisku Biała Owca w Białce Tatrzańskiej"
-                    class="aspect-square rounded-lg object-cover shadow-xl">
+            <div >
+                <img src="{{asset('assets/mobile/gastronomia-3.webp')}}" alt="gofry w gastronomii na lodowisku Biała Owca w Białce Tatrzańskiej"
+                    class="aspect-square rounded-lg object-cover shadow-xl w-full" loading="lazy">
             </div>
            
 

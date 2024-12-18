@@ -38,29 +38,30 @@
             </div>
 
             <div class="w-full lg:w-1/2 flex flex-col items-center justify-start gap-12">
-                <x-heading>Lodowisko <br /> Biała Owca</x-heading>
+                {{-- <x-heading>Lodowisko <br /> Biała Owca</x-heading> --}}
+                <h3 class="text-center text-4xl sm:text-5xl font-heading " style="line-height: 1.3">Lodowisko <br /> Biała Owca</h3>
 
                 <div class="grid sm:grid-cols-2 w-full gap-6">
 
                     <div class="flex justify-center items-center flex-col ">
-                        <h3 class="text-center text-2xl font-heading mb-4">Email</h3>
+                        <h4 class="text-center text-2xl font-heading mb-4">Email</h4>
                         <a href="mailto:kontakt@lodowiskobialka.pl" class="text-xl">kontakt@lodowiskobialka.pl</a>
                     </div>
 
                     <div class="flex justify-center items-center flex-col ">
-                        <h3 class="text-center text-2xl font-heading mb-4">Telefon</h3>
+                        <h4 class="text-center text-2xl font-heading mb-4">Telefon</h4>
                         <a href="tel:+48734775817" class="text-xl">+48 734 775 817</a>
                     </div>
 
                     <div class="flex justify-center items-center flex-col ">
-                        <h3 class="text-center text-2xl font-heading mb-4">Adres</h3>
-                        <a href="https://maps.app.goo.gl/GNqpgpcfAvYnMM6W6" class="text-xl text-center">Środkowa 161
-                            <br />Białka Tatrzańska</a>
+                        <h4 class="text-center text-2xl font-heading mb-4">Adres</h4>
+                        <p class="text-xl text-center">Środkowa 161
+                            <br />Białka Tatrzańska</p>
                     </div>
 
                     <div class="flex justify-center items-center flex-col ">
-                        <h3 class="text-center text-2xl font-heading mb-4">Godziny otwarcia</h3>
-                        <p " class=" text-xl text-center">codziennie <br />10-21</p>
+                        <h4 class="text-center text-2xl font-heading mb-4">Godziny otwarcia</h4>
+                        <p  class=" text-xl text-center">codziennie <br />10-21</p>
                     </div>
 
 

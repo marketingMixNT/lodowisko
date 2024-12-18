@@ -1,4 +1,4 @@
-<x-layouts.app title="Lodowisko Biała Owca w Białce Tatrzańskiej – Zimowa zabawa dla całej rodziny"
+<x-layouts.app title="Lodowisko Biała Owca w Białce Tatrzańskiej"
     description="Odkryj lodowisko Biała Owca! Świetna zabawa na łyżwach, wypożyczalnia sprzętu i pyszne jedzenie czekają na Ciebie w Białce Tatrzańskiej.">
 
     @include('pages.home.partials.hero')

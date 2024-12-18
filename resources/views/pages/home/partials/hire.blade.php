@@ -20,7 +20,7 @@
 
             <div class="w-full lg:w-1/2 ">
                 <x-price-list>
-                    <h2 class="text-center text-3xl font-heading text-fontLight">Cennik</h2>
+                    <h3 class="text-center text-3xl font-heading text-fontLight">Cennik</h3>
                    
                     <ul class="flex flex-col gap-8 text-fontLight">
                         <x-price-item title="Wypożyczenie sprzętu" price="20zł" />

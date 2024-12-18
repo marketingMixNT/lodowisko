@@ -12,13 +12,15 @@
 
         <div class="flex xl:hidden  justify-center items-center gap-3 ">
 
-            <a href="https://maps.app.goo.gl/GNqpgpcfAvYnMM6W6" target="_blank" class="font-light text-sm flex justify-center items-center gap-2  " aria-label="Otwórz mapę">
+            <a href="https://maps.app.goo.gl/GNqpgpcfAvYnMM6W6" target="_blank"
+                class="font-light text-sm flex justify-center items-center gap-2  " aria-label="Otwórz mapę">
                 <x-lucide-map-pin class="w-5" />
             </a>
-            
-            <a href="tel:+48734775817" class="font-light text-sm flex justify-center items-center gap-2 " aria-label="Zadzwoń">
+
+            <a href="tel:+48734775817" class="font-light text-sm flex justify-center items-center gap-2 "
+                aria-label="Zadzwoń">
                 <x-lucide-phone class="w-5" />
-                
+
             </a>
         </div>
     </div>
@@ -26,9 +28,11 @@
 
     <ul class="flex justify-center items-center gap-6 text-white text-xl  ">
         <li class="hidden lg:block"><a href="{{route('home')}}/#lodowisko" class="link-hover ">Lodowisko</a></li>
-        <li class="hidden lg:block"><a href="{{route('home')}}/#wypozyczalnia" class="link-hover ">Wypożyczalnia</a></li>
+        <li class="hidden lg:block"><a href="{{route('home')}}/#wypozyczalnia" class="link-hover ">Wypożyczalnia</a>
+        </li>
         <li class="flex justify-center">
-            <a href="{{route('home')}}"><img src="{{ asset('assets/logo.png') }}" alt="logo" class="w-24" aria-label="Strona główna"></a>
+            <a href="{{route('home')}}"><img src="{{ asset('assets/logo.webp') }}" alt="logo Lodowisko Biała
+Owca w Białce Tatrzańskiej" class="w-24" aria-label="Strona główna"></a>
         </li>
         <li class="hidden lg:block"><a href="{{route('home')}}/#gastronomia" class="link-hover ">Gastronomia</a></li>
         <li class="hidden lg:block"><a href="{{route('home')}}/#kontakt" class="link-hover ">Kontakt</a></li>
@@ -38,14 +42,17 @@
     <div class="absolute right-6 top-1/2 -translate-y-1/2 ">
 
 
-        <a href="https://maps.app.goo.gl/GNqpgpcfAvYnMM6W6" target="_blank" class=" font-semibold text-xl hidden xl:flex justify-center items-center gap-2  ">
+        <a href="https://maps.app.goo.gl/GNqpgpcfAvYnMM6W6" target="_blank"
+            class=" font-semibold text-xl hidden xl:flex justify-center items-center gap-2  ">
             <x-lucide-map-pin class="w-8" />
 
 
             Środkowa 161, Białka Tatrzańska
         </a>
 
-        <button id="openMenu" class="lg:hidden" aria-label="Otwórz menu"> <x-lucide-menu class="w-8 "/></button>
-   
+        <button id="openMenu" class="lg:hidden" aria-label="Otwórz menu">
+            <x-lucide-menu class="w-8 " />
+        </button>
+
     </div>
 </header>
