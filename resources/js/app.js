@@ -4,6 +4,7 @@ import "./partials/mobileButtons"
 import "./partials/navbar"
 // import "./partials/preloader"
 
+import 'flowbite';
 import "./bootstrap";
 
 

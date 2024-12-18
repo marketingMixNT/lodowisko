@@ -1,0 +1,11 @@
+models:
+  Post:
+    title: string unique
+    slug: string unique
+    meta_title: string nullable
+    meta_description: string nullable
+    content: text
+    thumbnail_mobile: text nullable
+    thumbnail: text
+    published_at: datetime
+   

@@ -17,7 +17,7 @@
 
             <x-about-pictogram>
                 <x-gmdi-ice-skating class="w-20" />
-                <h3 class="text-2xl font-heading">Profesjonalnie tafla lodu</h3>
+                <h3 class="text-2xl font-heading">Profesjonalna tafla lodu</h3>
                 <p class="text-lg">Nasza tafla jest regularnie pielęgnowana, aby zapewnić najlepsze warunki do
                     ślizgania. Płynna jazda
                     gwarantowana!</p>

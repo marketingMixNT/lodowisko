@@ -10,5 +10,11 @@
     @include('pages.home.partials.gastronomy')
     @include('pages.home.partials.contact')
 
+    @include('pages.home.partials.faq')
+
+
+
+
+
 
 </x-layouts.app>
