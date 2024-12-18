@@ -25,6 +25,8 @@ Owca w Białce Tatrzańskiej" class="w-40 "></a>
 
                 <li class="text-xl nav-item"><a href="{{route('home')}}/#gastronomia">Gastronomia</a></li>
                 <li class="text-xl nav-item"><a href="{{route('home')}}/#kontakt">Kontakt</a></li>
+                <li class="text-xl nav-item"><a href="{{route('home')}}/#faq">FAQ</a></li>
+                <li class="text-xl nav-item"><a href="{{route('blog.index')}}">Aktualności</a></li>
 
 
             </ul>
