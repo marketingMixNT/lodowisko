@@ -90,6 +90,22 @@ class PostResource extends Resource
                         RichEditor::make('content')
                             ->label('Treść posta')
                             ->required()
+                            ->toolbarButtons([
+                                // 'attachFiles',
+                                'blockquote',
+                                'bold',
+                                'bulletList',
+                                'codeBlock',
+                                'h2',
+                                'h3',
+                                'italic',
+                                'link',
+                                'orderedList',
+                                'redo',
+                                'strike',
+                                'underline',
+                                'undo',
+                            ])
                             ->columnSpanFull(),
 
                             FileUpload::make('thumbnail_mobile')

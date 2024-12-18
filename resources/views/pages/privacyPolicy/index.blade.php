@@ -4,7 +4,7 @@
 
     <section
     class=" sm:py-32 w-full bg-center bg-fixed bg-cover bg-blend-multiply bg-primary-600 flex justify-center items-end text-white px-6 sm:px-12 xl:px-0"
-    style="background-image: url({{asset('assets/hero-1.jpg')}})  ">
+    style="background-image: url({{asset('assets/cta.webp')}})  ">
 
     <div class="flex flex-col justify-center items-center mx-auto text-center  max-w-screen-xl gap-16 2xl:gap-32 pb-20">
 

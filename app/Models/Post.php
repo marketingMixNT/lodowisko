@@ -62,7 +62,7 @@ class Post extends Model
         if ($this->meta_title) {
             return $this->meta_title;
         } else {
-            return str_replace(['"', "'"], '', $this->title);
+            return str_replace(['"', "'"], '', $this->title) . ' - Lodowisko Biała Owca';
         }
     }
 

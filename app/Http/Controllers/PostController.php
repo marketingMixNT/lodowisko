@@ -9,7 +9,7 @@ class PostController extends Controller
 {
    public function index () {
 
-    $posts = Post::published()->select('id', 'title', 'slug', 'thumbnail','content' ,'published_at')->orderBy('published_at','desc')->paginate(4);
+    $posts = Post::published()->select('id', 'title', 'slug', 'thumbnail','thumbnail_mobile','content' ,'published_at')->orderBy('published_at','desc')->paginate(4);
 
     return view('pages.blog.index',compact('posts'));
    }
@@ -18,6 +18,6 @@ class PostController extends Controller
 
     $post = Post::where('slug', $slug)->firstOrFail();
 
-    return view('pages.blog.index',compact('post'));
+    return view('pages.blog.show',compact('post'));
    }
 }
