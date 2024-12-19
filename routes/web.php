@@ -10,3 +10,8 @@ Route::get('/aktualnosci', [PostController::class,'index'])->name('blog.index');
 Route::get('/aktualnosci/{slug}', [PostController::class,'show'])->name('blog.show');
 
 Route::get('/polityka-prywatnosci', [MainController::class,'privacyPolicy'])->name('privacyPolicy');
+
+
+Route::fallback(function () {
+    return redirect('/');
+});

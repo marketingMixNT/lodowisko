@@ -1,20 +1,19 @@
-<header id="header" class="fixed top-0 left-0 right-0 duration-500  text-white z-50 ">
+<header id="header" class="fixed top-0 left-0 right-0 duration-500  text-white z-50 py-2">
 
 
 
     <div class="flex justify-between max-w-screen-2xl mx-auto px-6 2xl:px-0 ">
 
         <a href="{{route('home')}}" class="link-hover  lg:hidden"><img src="{{asset('assets/logo.png')}}" alt="logo Lodowisko Biała
-Owca w Białce Tatrzańskiej"
-                class="w-28  object-contain object-center" />
+Owca w Białce Tatrzańskiej" class="w-28  object-contain object-center" />
         </a>
 
 
         <ul class="hidden lg:flex justify-center items-center gap-6 text-white text-xl  ">
 
-            <li class="hidden lg:block"><a href="{{route('home')}}" class="link-hover "><img
+            <li class="hidden lg:block"><a href="{{route('home')}}" class=" "><img
                         src="{{asset('assets/logo.png')}}" alt="logo Lodowisko Biała
-Owca w Białce Tatrzańskiej" class="w-28  object-contain object-center " />
+Owca w Białce Tatrzańskiej" class="w-24  object-contain object-center " />
                 </a> </li>
             <li class="hidden lg:block"><a href="{{route('home')}}/#lodowisko" class="link-hover ">Lodowisko</a></li>
             <li class="hidden lg:block"><a href="{{route('home')}}/#wypozyczalnia" class="link-hover ">Wypożyczalnia</a>
@@ -46,5 +45,5 @@ Owca w Białce Tatrzańskiej" class="w-28  object-contain object-center " />
         </button>
     </div>
 
-   
+
 </header>
