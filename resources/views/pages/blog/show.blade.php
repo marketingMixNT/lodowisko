@@ -2,57 +2,57 @@
 
     @slot('seo')
     @php
-        $excerpt = Str::limit(strip_tags($post->content), 100);
-        $schemaData = [
-            "@context" => "https://schema.org",
-            "@type" => "NewsArticle",
-            "mainEntityOfPage" => [
-                "@type" => "WebPage",
-                "@id" => url("/aktualnosci/" . $post->slug),
-            ],
-            "headline" => $post->title,
-            "description" => $excerpt,
-            "image" => asset('storage/' . $post->thumbnail),
-            "author" => [
-                "@type" => "Organization",
-                "name" => "lodowisko bialka",
-                "url" => "https://bialkalodowisko.pl",
-            ],
-            "publisher" => [
-                "@type" => "Organization",
-                "name" => "lodowisko bialka",
-                "logo" => [
-                    "@type" => "ImageObject",
-                    "url" => asset('assets/logo-dark.webp'),
-                ],
-            ],
-            "datePublished" => $post->created_at->format('Y-m-d'),
-        ];
+    $excerpt = Str::limit(strip_tags($post->content), 100);
+    $schemaData = [
+    "@context" => "https://schema.org",
+    "@type" => "NewsArticle",
+    "mainEntityOfPage" => [
+    "@type" => "WebPage",
+    "@id" => url("/aktualnosci/" . $post->slug),
+    ],
+    "headline" => $post->title,
+    "description" => $excerpt,
+    "image" => asset('storage/' . $post->thumbnail),
+    "author" => [
+    "@type" => "Organization",
+    "name" => "lodowisko bialka",
+    "url" => "https://bialkalodowisko.pl",
+    ],
+    "publisher" => [
+    "@type" => "Organization",
+    "name" => "lodowisko bialka",
+    "logo" => [
+    "@type" => "ImageObject",
+    "url" => asset('assets/logo-dark.webp'),
+    ],
+    ],
+    "datePublished" => $post->created_at->format('Y-m-d'),
+    ];
 
-        $breadcrumbData = [
-            "@context" => "https://schema.org/",
-            "@type" => "BreadcrumbList",
-            "itemListElement" => [
-                [
-                    "@type" => "ListItem",
-                    "position" => 1,
-                    "name" => "Strona główna",
-                    "item" => url('/'),
-                ],
-                [
-                    "@type" => "ListItem",
-                    "position" => 2,
-                    "name" => "Aktualności",
-                    "item" => url('/aktualnosci'),
-                ],
-                [
-                    "@type" => "ListItem",
-                    "position" => 3,
-                    "name" => $post->title,
-                    "item" => url('/aktualnosci/' . $post->slug),
-                ],
-            ],
-        ];
+    $breadcrumbData = [
+    "@context" => "https://schema.org/",
+    "@type" => "BreadcrumbList",
+    "itemListElement" => [
+    [
+    "@type" => "ListItem",
+    "position" => 1,
+    "name" => "Strona główna",
+    "item" => url('/'),
+    ],
+    [
+    "@type" => "ListItem",
+    "position" => 2,
+    "name" => "Aktualności",
+    "item" => url('/aktualnosci'),
+    ],
+    [
+    "@type" => "ListItem",
+    "position" => 3,
+    "name" => $post->title,
+    "item" => url('/aktualnosci/' . $post->slug),
+    ],
+    ],
+    ];
     @endphp
 
     <script type="application/ld+json">
@@ -72,13 +72,13 @@
 
             <div class="flex flex-col gap-6 sm:gap-12 mt-24 xl:mt-36 2xl:mt-0 px-10 sm:px-0">
 
-                
+
 
                 <div class="flex flex-col justify-center items-center py-12">
                     <x-breadcrumbs>
-                        <x-breadcrumbs-item href="{{route('blog.index')}}" title="Aktualności"/>
-                        <x-breadcrumbs-item href="{{route('blog.show',$post->slug)}}" title="{{$post->title}}"/>
-                       
+                        <x-breadcrumbs-item href="{{route('blog.index')}}" title="Aktualności" />
+                        <x-breadcrumbs-item href="{{route('blog.show',$post->slug)}}" title="{{$post->title}}" />
+
                     </x-breadcrumbs>
                     <h1 class="text-4xl sm:text-6xl 2xl:text-8xl font-heading py-2" style="line-height: 1.2">
                         {{ $post->title }}</h1>
@@ -105,6 +105,42 @@
             {!! $post->content !!}
 
         </article>
+
+     
+
+        <x-section id="pozostałe_aktualności">
+
+            <x-heading> Zobacz pozostałe aktualności:</x-heading>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 max-w-screen-xl mx-auto py-12  md:w-1/2 lg:w-full">
+                @foreach ($latestPosts as $post)
+
+                <a href="{{ route('blog.show', $post->slug) }}"
+                    class="text-center group overflow-hidden rounded-lg space-y-6">
+                    <div class="overflow-hidden rounded-lg">
+                        <img src="{{ asset('storage/' . $post->thumbnail_mobile) }}"
+                            alt="miniaturka posta - {{ $post->title }}"
+                            class="md:hidden w-full aspect-square object-cover group-hover:scale-105 duration-300" />
+                    </div>
+                    <div class="overflow-hidden rounded-lg">
+                        <img src="{{ asset('storage/' . $post->thumbnail) }}"
+                            alt="miniaturka posta - {{ $post->title }}"
+                            class="hidden md:block w-full aspect-square object-cover group-hover:scale-105 duration-300" />
+                    </div>
+                    <div>
+
+                        <p class="text-sm pb-1">{{ $post->published_at->format('d.m.Y') }}</p>
+                        <h3 class="text-2xl font-heading pb-4">{{ $post->title }}</h3>
+                    </div>
+                </a>
+
+
+
+                @endforeach
+            </div>
+        </x-section>
+
+
 
     </x-section>
 

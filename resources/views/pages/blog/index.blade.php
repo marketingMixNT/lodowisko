@@ -3,13 +3,22 @@
 
     @slot('seo')
 
-    @if ($posts->onFirstPage() === false)
+    {{-- @if ($posts->onFirstPage() === false)
     <link rel="prev" href="{{ $posts->previousPageUrl() }}">
-@endif
+    @endif
 
-@if ($posts->hasMorePages())
+    @if ($posts->hasMorePages())
     <link rel="next" href="{{ $posts->nextPageUrl() }}">
-@endif
+    @endif --}}
+
+    @if ($posts->onFirstPage() === false)
+    <link rel="prev" href="{{ $posts->currentPage() === 2 ? route('blog.index') : $posts->previousPageUrl() }}">
+    @endif
+
+    @if ($posts->hasMorePages())
+    <link rel="next" href="{{ $posts->nextPageUrl() }}">
+    @endif
+
 
     <script type="application/ld+json">
         {
@@ -27,7 +36,7 @@
             "item": "https://bialkalodowisko.pl/aktualnosci"  
           }]
         }
-        </script>
+    </script>
     @endslot
 
     <section
@@ -41,8 +50,8 @@
                 class="flex flex-col justify-center items-center gap-6 sm:gap-12 mt-32 lg:mt-24 xl:mt-36 2xl:mt-0 px-10 sm:px-0">
 
                 <div class="flex flex-col justify-center items-center pt-12">
-                    <x-breadcrumbs> 
-                        <x-breadcrumbs-item href="{{route('blog.index')}}" title="Aktualności"/>
+                    <x-breadcrumbs>
+                        <x-breadcrumbs-item href="{{route('blog.index')}}" title="Aktualności" />
                     </x-breadcrumbs>
                     <h1 class="text-5xl sm:text-6xl 2xl:text-8xl font-heading " style="line-height: 1.2">Aktualności
                     </h1>
